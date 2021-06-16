@@ -10,11 +10,11 @@ CREATE TABLE netology.persons
     PRIMARY KEY (name, surname, age)
 );
 
-insert into netology.persons (name, surname, age, phone_number, city_of_living)
-                values ('Vasia', 'Pupkin', 18, '+7111111111', 'Pskov');
-insert into netology.persons (name, surname, age, phone_number, city_of_living)
-                values ('Kolia', 'Lupkin', 28, '+7111111112', 'Moscow');
-insert into netology.persons (name, surname, age, phone_number, city_of_living)
-                values ('Peter', 'Tupkin', 15, '+7111111113', 'Moscow');
-insert into netology.persons (name, surname, age, phone_number, city_of_living)
-                values ('Alex', 'Gupkin', 29, '+7111111114', 'Kirov');
+INSERT INTO netology.persons (name, surname, age, phone_number, city_of_living)
+                VALUES ('Vasia', 'Pupkin', 18, '+7111111111', 'Pskov');
+INSERT INTO netology.persons (name, surname, age, phone_number, city_of_living)
+                VALUES ('Kolia', 'Lupkin', 28, '+7111111112', 'Moscow');
+INSERT INTO netology.persons (name, surname, age, phone_number, city_of_living)
+                VALUES ('Peter', 'Tupkin', 15, '+7111111113', 'Moscow');
+INSERT INTO netology.persons (name, surname, age, phone_number, city_of_living)
+                VALUES ('Alex', 'Gupkin', 29, '+7111111114', 'Kirov');
